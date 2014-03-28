@@ -1,0 +1,16 @@
+<html ng-app="collectionApp">
+	<head>
+		<title>Collection</title>
+		<script src="lib/angular/angular.js"></script>
+  		<script src="lib/angular/angular-route.js"></script>
+  		<script src="js/collection.controller.js"></script>
+	</head>
+	<body ng-controller="collectionCtrl">
+	Hello world
+		<div>
+			<label>Please input the id of user:</label>
+			<input type="text" id="id" name="id" ng-model="user.id" ng-change="sendAjax()">
+			{{phone}}
+		</div>
+	</body>
+</html>
